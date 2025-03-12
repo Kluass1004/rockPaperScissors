@@ -21,7 +21,7 @@ body{
     border-radius: 50%;
    
 }
-.box:hover{
+.box:active{
     border: 10px solid #DE89BE;
 }
 #box1{
