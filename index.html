@@ -7,24 +7,28 @@
     <title>Rock Paper Scissor Game</title>
 </head>
 <body>
-    <h1 style="text-align: center;">Welcome</h1>
+    <h1 class="header">Welcome to the Game</h1>
     <div class="boxContainer">
         <div class="box" id="box1"></div>
         <div class="box" id="box2"></div>
         <div class="box" id="box3"></div>
     </div>
-  
-    <div style="text-align: center;">
+    <div style="text-align: center;margin: 5px;">
+        <button  id="play">Play</button>
+    </div>
+    
+    <div style="text-align: center;margin: 5px;">
        <div >  Score board</div>
        <div class="scoreBoard">
         <div>You <br>
-        <span>0</span>
+        <span id="userCt">0</span>
         </div>
         <div>Comp
             <br> 
-            <span>0</span>
+            <span id="compCt">0</span>
         </div>
        </div>
+       
     </div>
     <script src="/script.js"></script>
 </body>
